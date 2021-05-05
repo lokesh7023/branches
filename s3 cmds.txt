@@ -1,0 +1,11 @@
+to add bucket -- aws s3 mb s3://saibucket 
+
+to remove bucket --- aws s3 rb s3://saibucket
+
+how to se the files in bucket ---- aws s3 ls s3://<yourbucket name>  --recursive --human-readable --summarize
+
+To List the S3 Bucket 
+aws s3 ls s3://<S3bucketName>
+
+To copy the files from EC2 to S3
+aws s3 cp <Fully Qualified Local filename> s3://<S3BucketName>
